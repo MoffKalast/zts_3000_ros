@@ -10,7 +10,10 @@ This is a driver for the ZTS-3000 anemometer pair that uses RS485 and Modbus RTU
 
 Both start out with a modbus ID of 1, so one of them needs to be set to something else, the default config here uses wind speed mapped to 2. This can be done with most modbus tools.
 
-You'll also need a modbus to USB adapter, e.g. the CH341, and connect both sensors to it in parallel.
+You'll also need a modbus to USB adapter, e.g. the CH341, and connect both sensors to it in parallel after they're been configured.
+
+<img width="1430" height="850" alt="image" src="https://github.com/user-attachments/assets/89493c1d-9f8f-432b-9936-6b25fc8dfa50" />
+
 
 ## Installation
 
