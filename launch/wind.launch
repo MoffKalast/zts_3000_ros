@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-    <node name="anemometer" pkg="zts_3000_ros" type="anemometer_node.py" output="screen">
+    <node name="anemometer" pkg="zts_3000_ros" type="modbus_driver_node.py" output="screen">
         <param name="port" value="/dev/ttyMODBUS" />
         <param name="baud" value="4800" />
         <param name="modbus_id_wind_dir" value="1" />
